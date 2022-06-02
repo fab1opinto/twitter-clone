@@ -2,20 +2,15 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-
 		<title>Twitter clone</title>
-		
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-
 		<!-- bootstrap - link cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
 	</head>
 
 	<body>
 
-		<!-- Static navbar -->
 	    <nav class="navbar navbar-default navbar-static-top">
 	      <div class="container">
 	        <div class="navbar-header">
@@ -32,10 +27,9 @@
 	          <ul class="nav navbar-nav navbar-right">
 	            <li><a href="index.php">Voltar para Home</a></li>
 	          </ul>
-	        </div><!--/.nav-collapse -->
+	        </div>
 	      </div>
 	    </nav>
-
 
 	    <div class="container">
 	    	
@@ -45,7 +39,7 @@
 	    	<div class="col-md-4">
 	    		<h3>Inscreva-se já.</h3>
 	    		<br />
-				<form method="post" action="" id="formCadastrarse">
+				<form method="post" action="registra_usuario.php" id="formCadastrarse">
 					<div class="form-group">
 						<input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuário" required="requiored">
 					</div>
@@ -71,9 +65,9 @@
 
 		</div>
 
-
 	    </div>
-	
+		
+		<!--Javascript - Bootstrap -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	</body>

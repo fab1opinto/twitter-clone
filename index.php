@@ -2,23 +2,15 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-
 		<title>Twitter clone</title>
-
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-
 		<!-- bootstrap - link cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
-		<script>
-			// código javascript						
-		</script>
 	</head>
 
 	<body>
 
-	
 	    <nav class="navbar navbar-default navbar-static-top">
 	      <div class="container">
 	        <div class="navbar-header">
@@ -40,7 +32,7 @@
 						<div class="col-md-12">
 				    		<p>Você possui uma conta?</h3>
 				    		<br />
-							<form method="post" action="" id="formLogin">
+							<form method="post" action="validar_acesso.php" id="formLogin">
 								<div class="form-group">
 									<input type="text" class="form-control" id="campo_usuario" name="usuario" placeholder="Usuário" />
 								</div>
@@ -58,25 +50,24 @@
 				  	</ul>
 	            </li>
 	          </ul>
-	        </div><!--/.nav-collapse -->
+	        </div>
 	      </div>
 	    </nav>
 
 
 	    <div class="container">
 
-	      
 	      <div class="jumbotron">
-	        <h1>Bem vindo ao Twitter das Ruas</h1>
+	        <h1>Bem vindo ao twitter clone</h1>
 	        <p>Veja o que está acontecendo agora...</p>
 	      </div>
 
 	      <div class="clearfix"></div>
 		</div>
 
-
 	    </div>
-	
+
+		<!--Javascript - Bootstrap-->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	</body>
